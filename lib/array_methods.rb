@@ -1,26 +1,23 @@
-def using_include
-  using_include = ["array", "element"]
-  using_include.include?("element")
+def using_include(array, element)
+  array.include?(element)
 end
 
-def using_sort
-  using_sort = ["second", "fifth", "first"]
-  using_sort.sort
+def using_sort(array)
+  array.sort
 end
 
-def using_reverse
-  using_reverse = ["nine", "eight", "seven"]
-  using_reverse,reverse
+def using_reverse(array)
+  array.reverse
 end
 
 def using_first(array)
-
+  array.first
 end
 
 def using_last(array)
-
+  array.last
 end
 
 def using_size(array)
-
+  array.size
 end
